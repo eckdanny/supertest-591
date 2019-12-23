@@ -1,0 +1,22 @@
+{
+  "name": "supertest-591",
+  "version": "1.0.0",
+  "description": "https://github.com/visionmedia/supertest/issues/591",
+  "repository": "tdb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Danny Eck <eck.danny@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.24",
+    "@types/supertest": "^2.0.8",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
