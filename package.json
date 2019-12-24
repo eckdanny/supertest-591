@@ -2,7 +2,7 @@
   "name": "supertest-591",
   "version": "1.0.0",
   "description": "https://github.com/visionmedia/supertest/issues/591",
-  "repository": "tdb",
+  "repository": "github:eckdanny/supertest-591",
   "main": "server.js",
   "scripts": {
     "test": "jest",
