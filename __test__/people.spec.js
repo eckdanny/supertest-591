@@ -1,17 +1,4 @@
 const request = require("supertest");
-// const app = require('../server');
-const https = require("https");
-const httpProxy = require("http-proxy");
-const proxy = httpProxy.createProxyServer({});
-const app = (req, res) => {
-  proxy.web(req, res, {
-    target: "https://swapi.co",
-    agent: https.globalAgent,
-    followRedirects: true,
-    changeOrigin: true,
-    secure: false
-  });
-};
 
 describe("GET /people/:id", () => {
   it("returns a person repr", async () => {
